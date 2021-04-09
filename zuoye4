@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        .box1{
+            width: 500px;
+            height: 200px;
+            background-color: rgb(245, 241, 241);
+            border-width: 1px;
+            border-color: black;
+            border-style: solid;
+            padding-left: 0px;
+            padding-top: 20px;
+            padding-right: 0px;
+            padding-bottom: 120px;
+        }
+        .inner{
+               width: 100%;
+               height: 100%;
+               background-color: rgb(39, 112, 11);
+        }
+     th{
+        text-align: left;
+        color: rgb(245, 245, 7);
+     }
+     p{
+         text-align: center;
+     }
+     img{
+         width: 200px;
+         height: 200px;
+     }
+    </style>
+<body>
+    <div class="box1">
+        <h2>Doreamon</h2>
+        <div class="inner">
+            <table>
+                <tr>
+                    <th>My Street</th>
+                </tr>
+                <tr>
+                    <th>The Town</th>
+                </tr>
+                <tr>
+                    <th>Big House</th>
+                </tr>
+                <tr>
+                    <th>JP</th>
+                </tr>
+                <tr>
+                    <th>ZO50 1MU</th>
+                </tr>
+                <tr>
+                    <th></th>
+                </tr>
+                <tr>
+                    <th>Tel:01234 567 890</th>
+                </tr>
+                <tr>
+                    <th>Mail:<a href="guess@nothere.com">guess@nothere.com</a></th>
+                </tr>
+                <tr>
+                    <P><img src="多多.jpg" style="float: right;"></P>
+                </tr>
+            </table>  
+        </div>
+        <p>Editing writing, and development services</p>
+    </div>
+</body>
+</html>
